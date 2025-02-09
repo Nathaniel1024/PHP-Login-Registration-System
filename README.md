@@ -19,3 +19,18 @@ A secure login and registration system built with PHP, MySQL, HTML, and CSS. Thi
 1. Clone this repository:
    ```sh
    git clone https://github.com/nathaniel1024/PHP-Login-Registration-System.git
+
+
+### Desktop View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6b56934-a2e5-499a-85a7-d45f788e2550" alt="Desktop 1" />
+  <img src="https://github.com/user-attachments/assets/9256edfb-81f5-4ca4-ba07-459bc4e7386d" alt="Desktop 2" />
+  <img src="https://github.com/user-attachments/assets/f1976a88-3431-4715-9997-c7f70c6e6edf" alt="Desktop 3" />
+</p>
+
+### Mobile View
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/02e340de-aad9-4fdf-89cf-340a8a9b4b68" alt="Mobile 1" />
+  <img src="https://github.com/user-attachments/assets/d6bcca50-5ab9-4954-8732-d61beef7acf1" alt="Mobile 2" />
+  <img src="https://github.com/user-attachments/assets/0e110cc4-9805-45fe-9100-d4a1e40c333f" alt="Mobile 3" />
+</p>
