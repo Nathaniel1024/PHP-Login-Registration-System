@@ -1,0 +1,136 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+form {
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0087ff;
+    box-shadow: 0 0 0 2px rgba(0, 135, 255, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0087ff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0069c8;
+}
+
+button[name="logout"],
+button[name="forgot-password"],
+input[type="submit"][name="logout"] {
+    background-color: #dc3545;
+}
+
+button[name="logout"]:hover,
+button[name="forgot-password"]:hover,
+input[type="submit"][name="logout"]:hover {
+    background-color: #c82333;
+}
+
+button[name="register"] {
+    background-color: #28a745;
+}
+
+button[name="register"]:hover {
+    background-color: #218838;
+}
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    form {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input, button {
+        padding: 0.6rem;
+    }
+}
+
+/* Error messages styling */
+.error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+/* Success messages styling */
+.success {
+    color: #28a745;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
