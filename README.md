@@ -20,6 +20,24 @@ A secure login and registration system built with PHP, MySQL, HTML, and CSS. Thi
    ```sh
    git clone https://github.com/nathaniel1024/PHP-Login-Registration-System.git
 
+- Use the following SQL script to create the `users` and 'password_resets' table:
+
+     ```sql
+     CREATE TABLE `feifei`.`users` (
+	      `id` INT NOT NULL AUTO_INCREMENT , 
+	      `name` VARCHAR(255) NOT NULL , 
+	      `email` VARCHAR(255) NOT NULL , 
+	      `password` VARCHAR(255) NOT NULL , 
+	      PRIMARY KEY (`id`), 
+	      UNIQUE (`email`)
+      ) ENGINE = InnoDB;
+
+     CREATE TABLE `feifei`.`password_resets` (
+	     `id` int(11) NOT NULL,
+        `email` varchar(255) NOT NULL,
+        `token` varchar(100) NOT NULL,
+        `expires` datetime(6) NOT NULL
+      ) ENGINE = InnoDB;
 
 ### Desktop View
 <p align="center">
