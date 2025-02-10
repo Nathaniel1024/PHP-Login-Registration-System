@@ -24,19 +24,19 @@ A secure login and registration system built with PHP, MySQL, HTML, and CSS. Thi
 
      ```sql
   CREATE TABLE `table_name`.`users` (
-     `id` INT NOT NULL AUTO_INCREMENT ,
-     `name` VARCHAR(255) NOT NULL ,
-     `email` VARCHAR(255) NOT NULL ,
-     `password` VARCHAR(255) NOT NULL ,
-     PRIMARY KEY (`id`),
-     UNIQUE (`email`)
+        `id` INT NOT NULL AUTO_INCREMENT ,
+        `name` VARCHAR(255) NOT NULL ,
+        `email` VARCHAR(255) NOT NULL ,
+        `password` VARCHAR(255) NOT NULL ,
+        PRIMARY KEY (`id`),
+        UNIQUE (`email`)
      ) ENGINE = InnoDB;
 
   CREATE TABLE `table_name`.`password_resets` (
-     `id` int(11) NOT NULL,
-     `email` varchar(255) NOT NULL,
-     `token` varchar(100) NOT NULL,
-     `expires` datetime(6) NOT NULL
+        `id` int(11) NOT NULL,
+        `email` varchar(255) NOT NULL,
+        `token` varchar(100) NOT NULL,
+        `expires` datetime(6) NOT NULL
      ) ENGINE = InnoDB;
 
 ### Desktop View
