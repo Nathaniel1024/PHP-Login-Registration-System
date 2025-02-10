@@ -10,7 +10,7 @@ A secure login and registration system built with PHP, MySQL, HTML, and CSS. Thi
 - Secure input validation and error handling
 
 ## Technologies Used
-- **Backend:** PHP (Procedural or OOP)
+- **Backend:** PHP
 - **Database:** MySQL
 - **Frontend:** HTML, CSS
 - **Email Handling:** PHPMailer (SMTP with Gmail)
